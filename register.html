@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+body{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    text-align: center;
+}
+.h2{
+    color: tomato;
+}
+.register{
+    width: 50%;
+    height: 300px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+input{
+    height: 30px;
+    width: 80%;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.link1{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+}
+.btn{
+    width: 190px;
+    height: 35px;
+    border: none;
+    border-radius: 50px;
+    margin: 4px 0;
+    font-size: 18px;
+    background: rgba(3,5,23,.5);
+    color: white;
+    cursor: pointer;
+    outline: none;
+    
+}
+.btn:hover{
+    background: rgba(3,5,23,1);
+    cursor: pointer;
+    outline: none;
+}
+    </style>
+</head>
+<body>
+    <h2 class="h2">Register<span>Page</span></h2>
+<form method="POST" id="gform" data-email="melkamshiferaw1@gmail.com" 
+action="https://script.google.com/macros/s/AKfycbwtJeptlkDaXkmYviB9kJ-yUkn64r3ErtVIuudN6w/exec" class="register">
+    <input type="text" name="name" id="name" class="username" placeholder="insert your name"/>
+    <input type="text" name="email" id="email" class="emailAdd" placeholder="insert email address"/>
+    <a href="index.html" class="link1">Already have got userName & password?</a>
+    <button class="btn">Send</button>
+</form>    
+
+    <script src="authenticate.js"></script>
+</body>
+</html>

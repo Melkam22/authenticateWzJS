@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication with JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 class="h2">Login <span>Page</span></h2>
+<form name="log" class="form">
+    <input type="text" class="login" placeholder="insert username" name="name" required >
+    <!-- <input type="text" class="email" placeholder="insert email adress" name="email"/> -->
+    <input type="password" class="password" placeholder="insert pasword" name="psword" required >
+    <a href="register.html" class="link">You don't have userName & password?</a>
+    <button class="button" onclick="workIt(this.form)" value="log">LogIn</button>
+</form>    
+
+    <script src="authenticate.js"></script>
+</body>
+</html>

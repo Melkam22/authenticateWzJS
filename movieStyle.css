@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgba(43,83,5,.6);
+}
+h2{
+    text-align: center;
+    color: white;
+}
+#actorsList{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+} 
+.actorsListLi{
+    width: 250px;
+    height: 270px;
+    list-style: none;
+    box-shadow: 1px 2px 3px grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1%;
+}
+.img{
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    margin-top: 1%;
+    box-shadow: 1px 2px 3px gray;
+}
+.myWrapper{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+/* searchBar */
+#searchBar{
+    width: 80%;
+    height: 35px;
+    margin-left: 10%;
+    padding-left: 10px;
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+}
